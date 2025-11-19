@@ -77,7 +77,7 @@ st.markdown("""
 def load_model():
     """Load the summarization model from Hugging Face with proper configuration"""
     try:
-        model_name = "bariraazaib"
+        model_name = "mustehsannisarrao/summarizer"
         
         with st.sidebar:
             with st.spinner("🔄 Loading AI Model..."):
@@ -171,7 +171,7 @@ def main():
     col1, col2 = st.columns([4, 1])
     with col1:
         st.markdown("<h1>✨ AI Text Summarizer</h1>", unsafe_allow_html=True)
-        st.markdown("**Powered by** `mustehsannisarrao/summarizer` | Advanced NLP Model")
+        st.markdown("**Powered by** `bariraazaib` | Advanced NLP Model")
     
     st.markdown("---")
     
