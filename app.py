@@ -138,7 +138,7 @@ def debug_generation(tokenizer, model, text):
 
 def main():
     st.title("📝 Paragraph Summarizer")
-    st.markdown("Using model: `mustehsannisarrao/summarizer`")
+    st.markdown("Using model: `bariraazaib`")
     
     # Load model
     tokenizer, model = load_model()
