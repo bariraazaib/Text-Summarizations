@@ -77,7 +77,7 @@ st.markdown("""
 def load_model():
     """Load the summarization model from Hugging Face with proper configuration"""
     try:
-        model_name = "mustehsannisarrao/summarizer"
+        model_name = "bariraazaib"
         
         with st.sidebar:
             with st.spinner("🔄 Loading AI Model..."):
